@@ -72,3 +72,12 @@ a[href*="google"]{
   text-transform: uppercase;
   /* =(equal) *(includes) $(end) */
 }
+div{
+  color: lightcoral;
+  margin: 40px;
+  padding: 20px;
+  font-weight: bold
+}
+p{
+  margin: inherit;
+}
