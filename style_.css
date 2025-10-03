@@ -61,3 +61,14 @@ p.conclusion{
   padding-bottom: 10px;
   padding: 15px;
 }
+div .conclusion{
+  color: rgb(167, 57, 62);
+}
+a[href*="google"]{
+  background-color: rgb(206, 210, 214);
+  color: rgb(21, 4, 4);
+  text-decoration:underline ;
+  font-weight: BOLD;
+  text-transform: uppercase;
+  /* =(equal) *(includes) $(end) */
+}
