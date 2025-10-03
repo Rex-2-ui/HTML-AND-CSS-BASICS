@@ -1,5 +1,5 @@
 h1{
-  color: orange;
+  color: rgb(68, 0, 255);
   background-color: slategray;
   font-size: 20px;
   text-align: center;
@@ -7,12 +7,12 @@ h1{
   font-family: Arial ;
 }
 p{
-  color : blue;
+  color : rgb(6, 21, 11);
   text-align: left;
   font-size: 15px;
   line-height: 1.5;
   letter-spacing: 1.5px;
-  column-count: 3;
+  column-count: 2;
   column-gap: 60px;
 }
 ul {
@@ -33,4 +33,31 @@ span{
   font-weight: bold;
   font-size: 18px;
   display: block;
+}
+p.intro{
+  color: rgb(151, 48, 93);
+  font-size: 20px;
+  padding: 20px;
+  background-color: rgb(172, 137, 162);
+}
+p.body{
+  border:1px dashed ;
+  background-color: rgb(180, 194, 167);
+}
+#content{
+  background-color: rgb(166, 198, 166);;
+}
+p.body{
+  font-size: 20px;
+  font-style: Times;
+
+}
+p.intro.term{
+  font-size: 20px;
+  font-style: arial ;
+}
+p.conclusion{
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding: 15px;
 }
