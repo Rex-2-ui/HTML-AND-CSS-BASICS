@@ -150,3 +150,46 @@ article p{
   background: linear-gradient(90deg, #ff0000, #b30000);
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
+/* PSEUDO CLASSES */
+nav li a:hover{
+  background-color: rgb(80, 32, 41);
+  color: white;
+  border-radius: 8px;
+  text-decoration: underline;
+}
+.images li:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+form input:focus{
+  outline: none;
+  border: 2px dashed #ef3117;
+  box-shadow: 0 0 5px #ef3117;
+  border-radius: 26px;
+}
+form input{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solidd #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+footer{
+  background-color: #ef3117;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+form input:valid{
+  border: 2px solid green;
+}
+nav li:first-child a{
+  border: 3px solid #ef3117;
+}
