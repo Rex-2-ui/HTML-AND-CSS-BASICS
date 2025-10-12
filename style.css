@@ -193,3 +193,21 @@ form input:valid{
 nav li:first-child a{
   border: 3px solid #ef3117;
 }
+article p::first-line{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #312220;
+}
+section.join p::first-letter{
+  font-size: 1.2em;
+  color: #312220;
+}
+section.join p::selection{
+  background-color: #1e0785;
+  color: white;
+}
+p::after{
+  content: " ( end of paragraph )";
+  color: gray;
+  font-size: 0.8em;
+}
