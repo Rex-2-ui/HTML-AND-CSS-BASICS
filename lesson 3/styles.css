@@ -1,0 +1,12 @@
+*{
+  margin : 0;
+  padding : 0;
+}
+header
+{background-image: url(logo.webp) ;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
