@@ -6,3 +6,20 @@
 body{
   background: #efefef;
 }
+nav{
+  background: #1876F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.logo{
+  width: 30px;
+  margin-right: 45px;
+}
+nav .video, nav .inbox, nav .notification{
+  width: 20px;
+  margin: 0 15px;
+  align-items: left;
+}
