@@ -15,11 +15,30 @@ nav{
 
 }
 .logo{
-  width: 30px;
-  margin-right: 45px;
+  width: 35px;
+  margin-left: 30px;
 }
-nav .video, nav .inbox, nav .notification{
-  width: 20px;
+.notification{
+  width:30px;
+  margin-right: 20%;
+}
+.inbox{
+  width: 30px;
+
+}
+.video {
+  width: 30px;
+}
+
+.nav-left{
+  display: flex;
+  align-items: center;
+}
+.nav-left ul li {
+  list-style: none;
+  display: inline-block;
+}
+.nav-left ul li img{
+  width: 28px;
   margin: 0 15px;
-  align-items: left;
 }
