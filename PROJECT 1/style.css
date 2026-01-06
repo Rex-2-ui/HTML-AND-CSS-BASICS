@@ -33,3 +33,11 @@ nav{
   width: 28px;
   margin: 0 15px;
 }
+.nav-right{
+  width: 25px;
+  display: inline-block;
+}
+.search-box{
+  width: 30px;
+  border-radius: 30%;
+}
