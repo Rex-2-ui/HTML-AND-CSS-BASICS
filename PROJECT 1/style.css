@@ -11,23 +11,14 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 5px 5%;
 
 
 }
-.logo{
-  width: 35px;
-  margin-left: 30px;
-}
-.notification{
-  width:30px;
-  margin-right: 20%;
-}
-.inbox{
+
+.logo {
   width: 30px;
-
-}
-.video {
-  width: 30px;
+  margin-right: 45px;
 }
 
 .nav-left{
