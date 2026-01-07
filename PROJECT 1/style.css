@@ -33,11 +33,30 @@ nav{
   width: 28px;
   margin: 0 15px;
 }
-.nav-right{
-  width: 25px;
-  display: inline-block;
+.nav-right {
+  display: flex;
+  align-items: center;
 }
-.search-box{
-  width: 30px;
-  border-radius: 30%;
+
+.search-box {
+  background: #efefef;
+  padding: 5px 10px;
+  border-radius: 20px;
+  ;
+
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 150px;
+  background: transparent;
+}
+.search-box input::placeholder{
+  color: #999;
+  font-style:italic ;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+
+
 }
