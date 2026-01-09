@@ -115,14 +115,14 @@ nav{
   padding: 15px 5%;
 }
 .left-sidebar{
-  background-color: #cbdffa;
+
   flex-basis: 25%;
   position: sticky;
   top: 50px;
   align-self: flex-start;
 }
 .right-sidebar{
-  background-color: #cbdffa;
+
   flex-basis: 25%;
   position: sticky;
   top: 50px;
@@ -131,7 +131,7 @@ nav{
 .main-content{
   flex-basis: 47%;
 }
-.imp-links a{
+.imp-links a, .shortcuts-links a{
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -140,6 +140,40 @@ nav{
   width: fit-content;
 }
 .imp-links a img{
-  width: 25px;
+  width: 30px;
   margin-right: 15px;
+}
+.imp-links a:focus{
+  background: #cacdd3;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.imp-links a:last-child:hover{
+  color: #1876F2;
+   background: #cacdd3;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.imp-links{
+  border-bottom: 1px solid #ccc;
+}
+.shortcuts-links a img{
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.shortcuts-links a:hover{
+  background: #cacdd3;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.shortcuts-links a img{
+  width: 40px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+.shortcut-links p{
+  margin: 25px 0;  font-size: 18px;
+  font-weight: 500;
+  color: #626262;
 }
