@@ -131,7 +131,7 @@ nav{
 .main-content{
   flex-basis: 47%;
 }
-.imp-links a, .shortcuts-links a{
+.imp-links a, .shortcut-links a{
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -167,13 +167,44 @@ nav{
   padding: 5px 10px;
   border-radius: 10px;
 }
-.shortcuts-links a img{
-  width: 40px;
-  border-radius: 4px;
-  margin-right: 15px;
-}
+
 .shortcut-links p{
   margin: 25px 0;  font-size: 18px;
   font-weight: 500;
   color: #626262;
+}
+.shortcut-links a img{
+  width: 60px;
+  border-radius: 6px;
+  margin-right: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+.shortcut-links{
+  font-size: 20px;
+  margin: 20px;
+  text-align: left;
+
+}
+.shortcut-links a:hover{
+  background: #cacdd3;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.sidebar-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.sidebar-title h4{
+  font-size: 20px;
+  color: #626262;
+  font-weight: 600;
+}
+.sidebar-title a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #1876F2;
 }
