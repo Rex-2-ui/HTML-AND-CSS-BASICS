@@ -141,6 +141,7 @@ nav{
   margin-bottom: 30px;
   color: #626262;
   width: fit-content;
+  font-size: 18px;
 }
 .imp-links a img{
   width: 30px;
@@ -249,11 +250,8 @@ nav{
   padding: 2px;
 }
 .ad{
-  padding: 10px;
-  border-radius: 12%;
-  width: 10cm;
-  height: 10cm;
-  margin: 20px;
-  border-right: 20px;
-
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 20px;
+  size: 20px ;
 }
