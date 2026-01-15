@@ -17,7 +17,6 @@ nav{
   top: 0;
   z-index: 100;
 
-
 }
 
 .logo {
@@ -248,4 +247,13 @@ nav{
 .right-event p{
   font-size: 15px;
   padding: 2px;
+}
+.ad{
+  padding: 10px;
+  border-radius: 12%;
+  width: 10cm;
+  height: 10cm;
+  margin: 20px;
+  border-right: 20px;
+
 }
