@@ -38,6 +38,7 @@ nav{
   padding: 5px;
   border-radius: 50%;
   cursor: pointer;
+
 }
 .nav-right {
   display: flex;
@@ -142,6 +143,7 @@ nav{
   color: #626262;
   width: fit-content;
   font-size: 18px;
+  font-weight: bold;
 }
 .imp-links a img{
   width: 30px;
