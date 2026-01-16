@@ -128,9 +128,11 @@ nav{
   position: sticky;
   top: 50px;
   align-self: flex-start;
-  padding: 20px;
+  padding: 25px;
   border-radius: 4px;
   background: #fff;
+
+
 }
 .main-content{
   flex-basis: 47%;
@@ -231,12 +233,19 @@ nav{
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .events p{
-  font-size: 14px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5px;
 }
 .events a{
   text-decoration: none;
   color: #1876f2;
-  font-size: 18px;
+  font-size: 20px;
+  padding:15px ;
+  margin: 5px;
+}
+.events h4{
+  font-size: 20px;
 }
 .left-event span{
   position: absolute;
@@ -248,8 +257,9 @@ nav{
   padding: 4px 0;
 }
 .right-event p{
-  font-size: 15px;
-  padding: 2px;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 500;
 }
 .ad{
   border-radius: 4px;
@@ -287,5 +297,11 @@ nav{
 }
 .online-list p:hover{
     background: #cacdd3;
+  border-radius: 10px;
+}
+.right-event a:hover{
+    color: #1876F2;
+   background: #cacdd3;
+  padding: 5px 10px;
   border-radius: 10px;
 }
