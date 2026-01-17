@@ -326,3 +326,20 @@ nav{
   right: -9.5px
 
 }
+.story-gallery{
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.story{
+  flex-basis: 18%;
+  padding-top: 32%;
+  position: relative;
+  background-image: url('/New folder/profile.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+
+
+}
