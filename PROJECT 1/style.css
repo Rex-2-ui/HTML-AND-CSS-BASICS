@@ -144,8 +144,8 @@ nav{
   margin-bottom: 30px;
   color: #626262;
   width: fit-content;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 19px;
+  font-weight: 500;
 }
 .imp-links a img{
   width: 30px;
@@ -164,11 +164,15 @@ nav{
 }
 .imp-links{
   border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .shortcuts-links a img{
   width: 40px;
   border-radius: 4px;
   margin-right: 15px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 .shortcuts-links a:hover{
   background: #cacdd3;
@@ -206,11 +210,11 @@ nav{
   align-items: center;
   margin-bottom: 18px;
 }
-.sidebar-title h4{
+.right-sidebar h4{
   font-size: 20px;
-  color: #626262;
   font-weight: 600;
 }
+
 .sidebar-title a{
   text-decoration: none;
   font-size: 14px;
