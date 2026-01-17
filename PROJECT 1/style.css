@@ -343,3 +343,8 @@ nav{
 
 
 }
+.story-gallery.story img{
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
