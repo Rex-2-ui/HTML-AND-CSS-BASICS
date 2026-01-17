@@ -311,3 +311,14 @@ nav{
   padding: 5px 10px;
   border-radius: 10px;
 }
+.online-list .online{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.online-list .online::after{
+  top: unset;
+  bottom: 5px;
+  right: -9.5px
+
+}
