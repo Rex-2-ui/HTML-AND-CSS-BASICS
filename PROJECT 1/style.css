@@ -53,7 +53,7 @@ nav{
   margin-right: 15px;
   size: 15px;
   width: 170px;
-  height: 17px;
+  height: 26px;
 
 }
 
@@ -336,7 +336,6 @@ nav{
   flex-basis: 18%;
   padding-top: 32%;
   position: relative;
-  background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url('/New folder/profile.jpg');
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -361,4 +360,8 @@ nav{
   text-shadow: 0 0 5px rgba(0,0,0,0.7);
   width: 100%;
   text-align: center  ;
+}
+.story1{
+    background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url('/New folder/profile.jpg');
+
 }
