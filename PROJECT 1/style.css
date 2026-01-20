@@ -349,7 +349,7 @@ nav{
   border-radius: 50%;
   top: 5px;
   left: 5px;
-  border-radius: 5px solid #626262;
+  border: 5px solid #1876F2;
 }
 .story p{
   position: absolute;
@@ -375,4 +375,12 @@ nav{
 }
 .story5{
     background-image:linear-gradient(transparent,rgba(0,0,0,0.5)), url('/New folder/cage.png');
+}
+.story.story1 img{
+  top: unset;
+  left: 50%;
+  bottom: 30px;
+  transform: translateX(-50%);
+  border: 0;
+  width: 45px;
 }
