@@ -448,3 +448,11 @@ nav{
   width: 25px;
   margin-right: 8px;
 }
+.post-container{
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  color: #626262;
+  margin-top: 20px;
+}
