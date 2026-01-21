@@ -454,5 +454,9 @@ nav{
   border-radius: 6px;
   padding: 20px;
   color: #626262;
-  margin-top: 20px;
+  margin: 20px 0;
+}
+.user-profile span{
+  font-size: 14px;
+  color: #9a9a9a;
 }
