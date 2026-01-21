@@ -445,7 +445,7 @@ nav{
   margin-right: 30px;
 }
 .add-post-links a img{
-  width: 25px;
+  width: 28px;
   margin-right: 8px;
 }
 .post-container{
@@ -459,4 +459,23 @@ nav{
 .user-profile span{
   font-size: 14px;
   color: #9a9a9a;
+}
+.post-text{
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #9a9a9a;
+}
+.post-text span{
+  color: #1876F2;
+  cursor: pointer;
+  font-weight: 500;
+}
+.post-text span:hover{
+  text-decoration: underline;
+}
+.post-text a{
+  text-decoration: none;
+  color: #1876F2;
 }
