@@ -484,3 +484,10 @@ nav{
   border-radius: 6px;
   margin-bottom: 10px;
 }
+.post-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
