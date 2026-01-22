@@ -491,3 +491,11 @@ nav{
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
+.post-row a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #626262;
+  font-size: 16px;
+  font-weight: 500;;
+}
