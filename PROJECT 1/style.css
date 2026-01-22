@@ -499,3 +499,7 @@ nav{
   font-size: 16px;
   font-weight: 500;;
 }
+.post-row a img{
+  width: 28px;
+  margin-right: 8px;
+}
