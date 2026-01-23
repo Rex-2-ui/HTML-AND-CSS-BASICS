@@ -503,3 +503,6 @@ nav{
   width: 28px;
   margin-right: 8px;
 }
+.post-row a:hover{
+  color: #1876F2;
+}
