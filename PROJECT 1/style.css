@@ -506,3 +506,20 @@ nav{
 .post-row a:hover{
   color: #1876F2;
 }
+
+@media (max-width: 768px){
+  .container{
+    flex-direction: column;
+    padding: 15px;
+  }
+  .left-sidebar, .right-sidebar, .main-content{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .nav-left ul li img{
+    margin: 0 10px;
+  }
+  .search-box{
+    width: 130px;
+  }
+}
