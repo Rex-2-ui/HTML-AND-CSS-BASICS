@@ -16,9 +16,7 @@ nav{
   position: sticky;
   top: 0;
   z-index: 100;
-
 }
-
 .logo {
   width: 42px;
   margin-right: 45px;
@@ -131,7 +129,6 @@ nav{
   padding: 25px;
   border-radius: 4px;
   background: #fff;
-
 
 }
 .main-content{
@@ -266,7 +263,6 @@ nav{
   padding: 5px;
   font-weight: 500;
 }
-
 .right-event p i{
   font-weight: 900;
 }
@@ -278,7 +274,6 @@ nav{
   height: auto;
   padding: 2%;
   cursor: pointer;
-
 }
 .online-list{
   display: flex;
@@ -294,9 +289,7 @@ nav{
   cursor: pointer;
   display: block;
   transition: background 0.2s ease;
-
 }
-
 .online-list p{
   font-size: 18px;
   font-weight: 500;
@@ -324,7 +317,6 @@ nav{
   top: unset;
   bottom: 5px;
   right: -9.5px
-
 }
 .story-gallery{
   display: flex;
@@ -339,8 +331,6 @@ nav{
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-
-
 }
 .story img{
   position: absolute;
